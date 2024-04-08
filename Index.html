@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Inicio de Sesión</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<style>
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.social-login {
+  margin-bottom: 20px;
+}
+
+.social-login p {
+  margin-bottom: 10px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.google-login,
+.facebook-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button-text {
+  margin-right: 5px;
+}
+
+.button-icon {
+  font-weight: bold;
+}
+
+.google-login:hover,
+.facebook-login:hover {
+  background-color: #e6e6e6;
+}
+
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.register {
+  margin-bottom: 20px;
+}
+
+.register-button {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #45a049;
+}
+
+.captcha {
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+</style>
+<body>
+  <div class="container">
+    <h1>Bienvenido</h1>
+    <form>
+      <label for="username">Usuario:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <div class="social-login">
+        <p>O inicia sesión con:</p>
+        <div class="social-buttons">
+          <button class="google-login">
+            <span class="button-text">Continuar con</span>
+            <span class="button-icon">Google</span>
+          </button>
+          <button class="facebook-login">
+            <span class="button-text">Continuar con</span>
+            <span class="button-icon">Facebook</span>
+          </button>
+        </div>
+      </div>
+      
+      <hr>
+      
+      <div class="register">
+        <button class="register-button">Registrarse</button>
+      </div>
+      
+      <div class="checkbox">
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">CAPCHAT</label>
+      </div>
+      
+      <input type="submit" value="Iniciar Sesión">
+    </form>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
