@@ -1,0 +1,109 @@
+.padre{
+    background-color: gold;
+    padding: 5px;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr  ;
+    grid-template-areas:"hijo1 hijo1 hijo1 hijo1 hijo1 hijo1 hijo1 "
+                        "hijo2 hijo2 hijo2 hijo2 hijo2 hijo2 hijo2"
+                        "hijo3 hijo4 hijo7 hijo7 hijo8 hijo9 hijo9"
+                        "hijo3 hijo4 hijo7 hijo7 hijo8 hijo10 hijo11"
+                        "hijo5 hijo6 hijo7 hijo7 hijo8 hijo10 hijo12"
+                        "hijo5 hijo6 hijo7 hijo7 hijo8 hijo10 hijo13"
+                        "hijo14 hijo14 hijo14 hijo15 hijo15 hijo15 hijo15"
+                        "hijo16 hijo16 hijo16 hijo16 hijo16 hijo16 hijo16";
+
+}
+.padre .hijo1{
+    background-color: coral;
+    margin: 5px;
+    grid-area: hijo1;
+
+}
+
+.padre .hijo2{
+    background-color: crimson;
+    margin: 5px;
+    grid-area: hijo2;
+}
+.padre .hijo3{
+    background-color: green;
+    margin: 5px;
+    grid-area: hijo3;
+}
+.padre .hijo4{
+    background-color: green;
+    margin: 5px;
+    grid-area: hijo4;
+}
+.padre .hijo5{
+    background-color: green;
+    margin: 5px;
+    grid-area: hijo5;
+}
+.padre .hijo6{
+    background-color: green;
+    margin: 5px;
+    grid-area: hijo6;
+}
+
+.padre .hijo7{
+    background-color: greenyellow;
+    margin: 5px;
+    grid-area: hijo7;
+}
+
+.padre .hijo8{
+    background-color: darkorange;
+    margin: 5px;
+    grid-area: hijo8;
+}
+
+.padre .hijo9{
+    background-color: darkorange;
+    margin: 5px;
+    grid-area: hijo9;
+}
+
+.padre .hijo10{
+    background-color: darkorange;
+    margin: 5px;
+    grid-area: hijo10;
+}
+
+.padre .hijo11{
+    background-color: darkorange;
+    margin: 5px;
+    grid-area: hijo11;
+}
+
+.padre .hijo12{
+    background-color: darkorange;
+    margin: 5px;
+    grid-area: hijo12;
+}
+
+.padre .hijo13{
+    background-color:darkorange;
+    margin: 5px;
+    grid-area: hijo13;
+}
+
+.padre .hijo14{
+    background-color: rosybrown;
+    margin: 5px;
+    grid-area: hijo14;
+}
+
+.padre .hijo15{
+    background-color: rosybrown;
+    margin: 5px;
+    grid-area: hijo15;
+}
+
+.padre .hijo16{
+    background-color: lightcoral;
+    margin: 5px;
+    height: 30px;
+    grid-area: hijo16;
+   
+}
